@@ -13,6 +13,11 @@
   title: "Bridesmaid"
   description: "Groom's Daughter"
 
+- name: Samantha Breymaier
+  image: "sam.jpg"
+  title: "Ring Bearer"
+  description: "Bride's Daughter"
+
 - name: Josh Osborn
   image: "josh.jpg"
   title: "Groomsman"
@@ -28,17 +33,7 @@
   title: "Groomsman"
   description: "Bride's Son"
 
-- name: Samantha Breymaier
-  image: "sam.jpg"
-  title: "Ring Bearer"
-  description: "Bride's Daughter"
-
 - name: Amelia Glover
   image: "amelia.jpg"
   title: "Flower Girl"
   description: "Groom's Daughter"
-
-- name: Cross Glover
-  image: "cross.jpg"
-  title: "Court Jester"
-  description: "Bride + Groom = The Moose"
