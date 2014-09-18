@@ -109,3 +109,30 @@ layout: default
     </div>
   </article>
 </div>
+
+<div id="wedding-party" class="wrapper style3">
+  <article>
+    <header>
+      <h2>Wedding Party</h2>
+    </header>
+    <div class="container">
+      {% for p in site.data.wedding_party %}
+        {% cycle 'row start': '<div class="row">', nil, nil %}
+        <div class="4u">
+          <article class="box style2">
+            <a href="#" class="image featured">
+              <img src="{{p.image_url}}" alt="{{ p.name }}">
+            </a>
+            <h3>{{ p.name }}</h3>
+            <p>
+              {{ p.title }}
+              <br>
+              {{ p.description }}
+            </p>
+          </article>
+        </div>
+        {% cycle 'row end': nil, nil, '</div>' %}
+      {% endfor %}
+    </div>
+  </article>
+</div>
