@@ -2,6 +2,7 @@
   <article class="container small">
     <header>
       <h2>Will you be able to attend?</h2>
+      <p>Please gift us ONLY with the honor of your presence.</p>
     </header>
     <div>
       <div class="row">
@@ -9,7 +10,7 @@
           <script type="text/javascript">var submitted=false;</script>
           <iframe name="hidden_iframe" id="hidden_iframe"
             style="display:none;" onload="if(submitted)
-            {window.location='{{site.url}}/thank-you';}"></iframe>
+            {window.location='{{site.url}}/#rsvp?submitted=1';}"></iframe>
           <form action="https://docs.google.com/forms/d/1dkCEdZHdl0ZHm8lGJZNP6OFWl4sBerfkK0nF9Mvy8F4/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
             <div>
               <div class="row">
@@ -32,7 +33,7 @@
               </div>
               <div class="row">
                 <div class="6u">
-                  <input type="text" name="entry.1362770363" placeholder="Name" id="entry_1362770363" dir="auto">
+                  <input type="text" name="entry.1362770363" placeholder="Name">
                 </div>
                 <div class="6u">
                   <select name="entry.251681457">
@@ -55,7 +56,17 @@
                   <input type="text" name="entry.1722033028" placeholder="I promise to dance if you play..">
                 </div>
                 <div class="6u">
-
+                  <select name="entry.1235754972">
+                    <option value="">Preferred Style of Beer</option>
+                    <option value="Porter">Porter</option>
+                    <option value="Stout">Stout</option>
+                    <option value="Wheat">Wheat</option>
+                    <option value="Pilsner">Pilsner</option>
+                    <option value="Lager">Lager</option>
+                    <option value="IPA">IPA</option>
+                    <option value="Brown">Brown</option>
+                    <option value="Amber">Amber</option>
+                  </select>
                 </div>
               </div>
               <div class="row">
