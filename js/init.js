@@ -46,6 +46,15 @@
       smoothScroll.init({
         offset: $("#nav").css("height")
       });
+
+      if(window.location.search.indexOf("submitted") > -1){
+        $(".alert.success").removeClass("hidden")
+      }
+
+      $(".alert .close").click(function(e){
+        e.preventDefault();
+        $(e.target).parents(".alert").fadeOut();
+      });
   });
 
 })(jQuery);

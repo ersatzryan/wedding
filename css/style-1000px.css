@@ -53,3 +53,7 @@
       height: 19.5em;
       margin: 0;
     }
+
+.alert {
+  top: 60px;
+}

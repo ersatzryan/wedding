@@ -786,3 +786,46 @@
     {
       color: #777;
     }
+
+.alert {
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 4px;
+  width: 50%;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.alert.dismissable {
+  position: relative;
+  top: -2px;
+  right: -21px;
+}
+
+button.close {
+  padding: 0;
+  margin: 0;
+  display: inline;
+  cursor: pointer;
+  border: none;
+  line-height: 1;
+  font-size: 21px;
+  background: 0 0;
+}
+.close {
+  float: right;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .2;
+}
+.alert.success {
+  border-color: rgb(188,232,241);
+  color: rgb(49,112,143);
+  background-color: rgb(217,237,247);
+}
+
+.hidden {
+  display: none;
+}

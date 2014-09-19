@@ -232,3 +232,7 @@
       padding-left: 0;
       margin-left: 0;
     }
+
+.alert {
+  top: 68px;
+}
