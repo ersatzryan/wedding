@@ -1,7 +1,7 @@
 - name: Theresa Santelli
   image: "theresa.jpg"
   title: "Bridesmaid"
-  description: "Close friend of the bride"
+  description: "Bride's Close Friend"
 
 - name: Katelyn Glover
   image: "katelyn.jpg"
@@ -26,7 +26,7 @@
 - name: Eric Milford
   image: "eric.jpg"
   title: "Groomsman"
-  description: "Groom's close friend and co-worker"
+  description: "Groom's Close Friend"
 
 - name: Nick Breymaier
   image: "nick.jpg"
