@@ -1,0 +1,43 @@
+<div id="pictures" class="wrapper style4">
+  <article class="container small">
+    <header>
+      <h2>#HappilyEverGlover</h2>
+    </header>
+    <div>
+      <div class="row">
+        <div class="12u">
+          <div id="instagram-pictures">
+          </div>
+          <a href="#" class="button btn-small" data-instafeed-load-more>Load More</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <hr>
+      <ul id="copyright">
+        <li><a href="mailto:thegloverkids@gmail.com">TheGloverKids@gmail.com</a></li>
+        <li><a href="http://twitter.com/psychtlc">@psychtlc</a></li>
+        <li><a href="http://twitter.com/ersatzryan">@ersatzryan</a></li>
+      </ul>
+    </footer>
+  </article>
+</div>
+
+<script src="/js/instafeed.min.js"></script>
+<script>
+  loadButton = $("a[data-instafeed-load-more]")
+  feed = new Instafeed({
+    get:'tagged',
+    tagName: 'happilyeverglover',
+    clientId: 'c2d5e1dbdc2a450badf8d5b92617ffe5',
+    target: 'instagram-pictures',
+    limit: 24
+  })
+
+  loadButton.click(function(e) {
+    e.preventDefault();
+    feed.next();
+  });
+
+  feed.run();
+</script>
