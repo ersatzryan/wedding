@@ -43,9 +43,7 @@
       if (skel.vars.IEVersion < 9)
         $(':last-child').addClass('last-child');
 
-      smoothScroll.init({
-        offset: $("#nav").css("height")
-      });
+      smoothScroll.init();
 
       if(window.location.search.indexOf("submitted") > -1){
         $(".alert.success").removeClass("hidden")
